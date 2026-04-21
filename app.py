@@ -13,7 +13,7 @@ st.set_page_config(
 # ── LOAD DATA ─────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("nyt_clusters_sentiment.csv")
+    df = pd.read_csv("nyt_app_data.csv")
     df["date"] = pd.to_datetime(df["date"])
     cluster_labels = {
         0: "World News & Conflict",
