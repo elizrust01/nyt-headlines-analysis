@@ -23,6 +23,7 @@ https://nyt-headlines-analysis-6gsazhjdqry2xs9n2hcaam.streamlit.app/
 - VADER sentiment analysis on headlines and abstracts
 - Interactive timeline showing sentiment shifts around the US election and Trump's inauguration
 - Filterable headline browser of all 96,510 headlines
+- Built with: Python, Pandas, Scikit-learn, VADER, Streamlit, Matplotlib
 
 ## 📉 Data collection and preprocessing
 Data for this project was collected using a NY Times API from the newspaper’s developer’s portal, resulting in 96,510 rows and eight columns scraped for headline, date, month, section, author, URL, abstract and year for 2024 and 2025. 
@@ -34,9 +35,6 @@ Text preprocessing was applied to the headline column using the Natural Language
 All headlines were converted to lowercase to allow for more consistency across the dataset. 
 
 Sections of the newspaper were also removed: Crosswords & Games, News Briefings, Corrections, Summaries and Word of the Day, which were identified as not relevant to the analysis.
-
-## 🛠️ Built with
-- Python, Pandas, Scikit-learn, VADER, Streamlit, Matplotlib
 
 ## 📁 Data
 - Source: New York Times API
