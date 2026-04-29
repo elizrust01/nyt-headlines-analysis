@@ -1,5 +1,5 @@
 # 📰 Visualising the news
-# How the New York Times covered the US election, Gaza and Trump’s return to the White House through machine learning and sentiment analysis
+## How the New York Times covered the US election, Gaza and Trump’s return to the White House through machine learning and sentiment analysis
 
 ## 📱 Summary
 Analysing thousands of NY Times headlines for 2024 and 2025 provides insight into how one of the world’s leading new organisations is framing global events for the public consumption. 
