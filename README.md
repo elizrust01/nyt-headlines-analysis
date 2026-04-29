@@ -2,7 +2,7 @@
 ## How the New York Times covered the US election, Gaza and Trump’s return to the White House through machine learning and sentiment analysis
 
 ## 📱 Summary
-Analysing thousands of NY Times headlines for 2024 and 2025 provides insight into how one of the world’s leading new organisations is framing global events for the public consumption. 
+Analysing thousands of NY Times headlines for 2024 and 2025 provides insight into how one of the world’s leading news organisations is framing global events for public consumption. 
 
 This project analyses 96,510 headlines using unsupervised machine learning and natural language processing to uncover hidden patterns in coverage and tone. 
 
@@ -12,7 +12,7 @@ The project's findings reveal that World News & Conflict are by far the most neg
 
 By contrast, Lifestyle & Culture and Breaking News & Disasters remain flat throughout 2024 and 2025, appearing to be unaffected by the negative clusters. 
 
-A further finding suggests that headlines understate the negatively of articles compared to when article abstracts are added to the analysis. 
+A further finding suggests that headlines understate the negativity of articles compared to when article abstracts are added to the analysis. 
 
 All findings are presented through an interactive Streamlit app, making the analysis accessible to a non-technical audience.
 
