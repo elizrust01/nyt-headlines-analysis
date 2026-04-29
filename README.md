@@ -16,14 +16,24 @@ A further finding suggests that headlines understate the negativity of articles 
 
 All findings are presented through an interactive Streamlit app, making the analysis accessible to a non-technical audience.
 
-## 🔗 Live Streamlit app
+## 🔗 Live interactive Streamlit app
 https://nyt-headlines-analysis-6gsazhjdqry2xs9n2hcaam.streamlit.app/
 
-## 📊 What it does
-- K-Means clustering to identify 7 thematic groups
+- K-Means clustering to identify seven thematic groups
 - VADER sentiment analysis on headlines and abstracts
 - Interactive timeline showing sentiment shifts around the US election and Trump's inauguration
 - Filterable headline browser of all 96,510 headlines
+
+## 📉 Data collection and preprocessing
+Data for this project was collected using a NY Times API from the newspaper’s developer’s portal, resulting in 96,510 rows and eight columns scraped for headline, date, month, section, author, URL, abstract and year for 2024 and 2025. 
+
+Cleaning of data consisted of removing rows with null values and duplicate entries. 
+
+Text preprocessing was applied to the headline column using the Natural Language Processing (NLP) library, removing stop words (words such as “and”, “the” and “was”), punctuation and special characters. 
+
+All headlines were converted to lowercase to allow for more consistency across the dataset. 
+
+Sections of the newspaper were also removed: Crosswords & Games, News Briefings, Corrections, Summaries and Word of the Day, which were identified as not relevant to the analysis.
 
 ## 🛠️ Built with
 - Python, Pandas, Scikit-learn, VADER, Streamlit, Matplotlib
