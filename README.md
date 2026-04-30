@@ -12,7 +12,7 @@ The project's findings reveal that World News & Conflict are by far the most neg
 
 By contrast, Lifestyle & Culture and Breaking News & Disasters remain flat throughout 2024 and 2025, appearing to be unaffected by the negative clusters. 
 
-A further finding suggests that headlines understate the negativity of articles compared to when article abstracts are added to the analysis. 
+A further finding suggests that headlines understate the negativity of articles compared to when article abstracts are added to the analysis pointing to a conscious editorial decision to neutralise headlines. 
 
 All findings are presented through an interactive Streamlit app, making the analysis accessible to a non-technical audience.
 
