@@ -7,7 +7,6 @@
 - VADER sentiment analysis on headlines and abstracts
 - Interactive timeline showing sentiment shifts around the US election and Trump's inauguration
 - Filterable headline browser of all 96,510 headlines
-- Built with: Python, Pandas, Scikit-learn, VADER, Streamlit, Matplotlib
   
 ---
 
@@ -73,3 +72,13 @@ Extending the methodology used in this project to compare multiple news organisa
 ## 📁 Data Source
 - New York Times Developer API
 - 96,510 headlines — January 2024 to December 2025
+
+---
+
+## 📓 Notebook
+[View the full analysis notebook](NYT_headlines_notebook.ipynb)
+
+---
+
+## 🛠️ Built With
+- Python, Pandas, Scikit-learn, NLTK, VADER, Streamlit, Matplotlib
