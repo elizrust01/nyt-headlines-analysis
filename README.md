@@ -76,7 +76,7 @@ Extending the methodology used in this project to compare multiple news organisa
 ---
 
 ## 📓 Notebook
-[View the full analysis notebook](NYT_headlines_notebook.ipynb)
+[View the full analysis notebook](https://github.com/elizrust01/nyt-headlines-analysis/blob/main/NYT_headlines_notebook.ipynb)
 
 ---
 
