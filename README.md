@@ -52,20 +52,20 @@ When sentiment was broken down by cluster, the contrast became clearer. World Ne
 
 ## 🔭 Next Steps
 
-- **Extending the dataset into 2026** to analyse coverage of the Iran conflict and emerging geopolitical tensions, and to explore whether the downward trend in World News & Conflict sentiment identified in 2025 continued or accelerated.
-- **Separating opinion pieces** to compare how the NYT frames events editorially versus how they are covered in straight news reporting.
-- **Using a more sophisticated sentiment tool** — while VADER proved a useful starting point, models such as RoBERTa or FinBERT would be better equipped to handle the nuance of news language, particularly for politically charged coverage.
+- **Extending the dataset into 2026** - analyse coverage of the Iran conflict and emerging geopolitical tensions, and to explore whether the downward trend in World News & Conflict sentiment identified in 2025 continued or accelerated.
+- **Separating opinion pieces** - compare how the NYT frames events editorially versus how they are covered in straight news reporting.
+- **Using a more sophisticated sentiment tool** — while VADER proved a useful starting point, models such as RoBERTa or FinBERT would be better equipped to handle the nuance of news language, particularly for politics coverage.
 - **Removing obituaries** — their volume only became apparent once the data was deployed to the Streamlit app, and their presence may have skewed certain clusters.
 
 ---
 
 ## 🎯 Conclusion
 
-One of the most valuable outputs of this project was the Headline Browser in the Streamlit App, which allows users to filter by cluster, sentiment and keyword simultaneously. For example, filtering by Trump & Politics, positive sentiment and searching for "Moscow" returns a single headline: *"In Moscow, Trump's Victory is Welcome, but Warily"* — a result that would not have been possible to surface through a conventional search engine. Similarly, filtering Arts & Reviews by negative sentiment reveals the dismissal of the musical adaptation of Prince's Purple Rain. This interactive exploration transforms a flat data report into a genuine investigative tool that could be applied to any news research project.
+One of the most valuable outputs of this project was the Headline Browser in the Streamlit App, which allows users to filter by cluster, sentiment and keyword simultaneously. For example, filtering by Trump & Politics, positive sentiment and searching for "Moscow" returns a single headline: *"In Moscow, Trump's Victory is Welcome, but Warily"* — a result that would have been difficult to replicate through a conventional search engine. Similarly, filtering Arts & Reviews by negative sentiment reveals the dismissal of the musical adaptation of Prince's Purple Rain. This interactive exploration transforms a flat data report into a genuine investigative tool that could be applied to any news research project.
 
-But is the New York Times neutral? At headline level, the newspaper suggests more editorial neutrality than may actually exist. When article abstracts are examined — particularly in clusters like Trump & Politics and World News & Conflict — a more negative picture emerges than when analysing headlines alone, suggesting that headline language is consistently softened relative to the fuller story.
+But is the New York Times neutral? At headline level, the newspaper suggests more editorial neutrality than may actually exist. When article abstracts are examined — particularly in clusters like Trump & Politics and World News & Conflict — a more negative picture emerges than when analysing headlines alone, suggesting that headline language is consistently softened relative to the whole story.
 
-Extending the methodology used in this project to compare multiple news organisations, or tracking sentiment across a longer period of time, could provide a powerful lens for examining media bias. What began as an exercise in unsupervised machine learning and natural language processing has confirmed something more fundamental: that the way newspapers are edited can shape how readers interpret events, and that media organisations carry a responsibility when shaping public opinion.
+Extending the methodology used in this project to compare multiple news organisations, or tracking sentiment across a longer period of time, could provide a powerful lens for examining media bias. What began as an exercise in unsupervised machine learning and natural language processing has confirmed something more fundamental: that the way newspapers are edited can influence how readers interpret events, and that media organisations carry a responsibility when shaping public opinion.
 
 ---
 
